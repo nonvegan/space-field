@@ -45,7 +45,7 @@ nRange.addEventListener('input', () => {
     }
 })
 speedRange.addEventListener('input', () => speed = speedRange.value)
-radiusRange.addEventListener('input', () => radius = radiusRange.value / 12)
+radiusRange.addEventListener('input', () => radius = radiusRange.value / 20)
 
 const stars = []
 const width = 1920
@@ -54,7 +54,7 @@ canvas.width = width
 canvas.height = height
 let nStars = nRange.value * 5
 let speed = speedRange.value
-let radius = radiusRange.value / 12
+let radius = radiusRange.value / 20
 for (let i = 0; i < nStars; i++) {
     stars.push(new Star)
 }
