@@ -16,6 +16,13 @@ div {
     text-align: center;
 }
 
-input {
+input,
+label {
     display: inline-block;
+    vertical-align: middle;
+    font-size: large;
+}
+
+label {
+    margin-left: 100px;
 }
