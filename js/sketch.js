@@ -48,8 +48,8 @@ speedRange.addEventListener('input', () => speed = speedRange.value)
 radiusRange.addEventListener('input', () => radius = radiusRange.value / 20)
 
 const stars = []
-const width = 1200
-const height = 700
+const width = 1280
+const height = 720
 canvas.width = width
 canvas.height = height
 let nStars = nRange.value * 5
