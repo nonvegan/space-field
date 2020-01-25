@@ -49,7 +49,7 @@ radiusRange.addEventListener('input', () => radius = radiusRange.value / 20)
 
 const stars = []
 const width = 1200
-const height = 800
+const height = 700
 canvas.width = width
 canvas.height = height
 let nStars = nRange.value * 5
